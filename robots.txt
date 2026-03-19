@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow internal/private routes if any arise in future
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://www.medicacom.tn/sitemap.xml
