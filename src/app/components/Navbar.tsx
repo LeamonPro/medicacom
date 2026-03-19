@@ -116,7 +116,7 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="group inline-flex items-center gap-3 shrink-0">
             <img
-              src="/assets/logo.webp"
+              src={`${import.meta.env.BASE_URL}assets/logo.webp`}
               alt="Medicacom Logo"
               className="h-7 md:h-8 w-auto object-contain mix-blend-multiply"
             />

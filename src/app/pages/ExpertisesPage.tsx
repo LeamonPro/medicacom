@@ -3,12 +3,13 @@ import { SEOHead } from '../components/SEOHead'
 import { site } from '../siteData'
 import { motion } from 'framer-motion'
 import { Database, BrainCircuit, Cpu, ArrowRight, CheckCircle2, ChevronRight } from 'lucide-react'
+import { TechOrbitSimulator } from '../components/TechOrbitSimulator'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-50px' },
-  transition: { duration: 0.6, delay, ease: 'easeOut' },
+  transition: { duration: 0.6, delay, ease: 'easeOut' as any },
 })
 
 const icons = [Database, BrainCircuit, Cpu]
@@ -140,7 +141,7 @@ export function ExpertisesPage() {
             >
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-secondary/20 to-brand-blue/5 blur-2xl z-0" />
               <img
-                src="/assets/saas_dashboard.png"
+                src={`${import.meta.env.BASE_URL}assets/saas_dashboard.png`}
                 alt="Medicacom Data Platform Dashboard"
                 className="relative z-10 w-full rounded-2xl shadow-2xl border border-slate-200/50"
               />
@@ -190,7 +191,7 @@ export function ExpertisesPage() {
             >
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-blue/20 to-brand-accent/5 blur-2xl z-0" />
               <img
-                src="/assets/cerebro_rx.png"
+                src={`${import.meta.env.BASE_URL}assets/cerebro_rx.png`}
                 alt="CEREBRO-RX AI Interface"
                 className="relative z-10 w-full rounded-2xl shadow-2xl border border-slate-200/50"
               />

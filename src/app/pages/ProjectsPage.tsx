@@ -7,7 +7,7 @@ const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, margin: '-50px' },
-  transition: { duration: 0.6, delay, ease: 'easeOut' },
+  transition: { duration: 0.6, delay, ease: 'easeOut' as any },
 })
 
 const projects = [
@@ -86,7 +86,7 @@ const projects = [
       'Vérification des produits via scan et signalement',
     ],
     stat: null,
-    image: '/assets/apothicare.png',
+    image: `${import.meta.env.BASE_URL}assets/apothicare.png`,
     border: 'border-brand-accent/20',
     glow: 'from-brand-accent/5',
   },
@@ -139,7 +139,7 @@ export function ProjectsPage() {
       {/* Projects */}
       <section className="py-8 bg-white">
         <div className="container space-y-8">
-          {projects.map((proj, idx) => (
+          {projects.map((proj) => (
             <motion.div
               key={proj.id}
               id={proj.id}

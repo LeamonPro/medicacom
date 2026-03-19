@@ -10,7 +10,7 @@ interface SEOHeadProps {
 }
 
 const SITE_NAME = 'Medicacom'
-const SITE_URL = 'https://www.medicacom.tn'
+const SITE_URL = 'https://LeamonPro.github.io/medicacom'
 const DEFAULT_IMAGE = `${SITE_URL}/assets/logo.webp`
 
 /**

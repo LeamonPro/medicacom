@@ -58,7 +58,7 @@ export function HomePage() {
         {/* Futuristic abstract background */}
         <div className="absolute inset-0 z-0 select-none">
           <img
-            src="/assets/hero_bg.png"
+            src={`${import.meta.env.BASE_URL}assets/hero_bg.png`}
             alt="Futuristic AI Pharma Data"
             className="w-full h-full object-cover mix-blend-overlay opacity-20"
           />
@@ -249,7 +249,7 @@ export function HomePage() {
             >
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-blue/20 to-brand-accent/5 blur-2xl z-0" />
               <img 
-                src="/assets/saas_dashboard.png" 
+                src={`${import.meta.env.BASE_URL}assets/saas_dashboard.png`} 
                 alt="Ecosysteme Data Dashboard" 
                 className="relative z-10 w-full rounded-2xl shadow-2xl border border-slate-200/50 object-cover"
               />

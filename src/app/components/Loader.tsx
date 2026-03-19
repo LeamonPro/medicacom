@@ -49,7 +49,7 @@ export function FuturisticLoader() {
 
       <div className="mt-8 flex flex-col items-center gap-2">
         <img
-          src="/assets/logo.webp"
+          src={`${import.meta.env.BASE_URL}assets/logo.webp`}
           alt="Medicacom Logo"
           className="h-8 w-auto mb-2 object-contain mix-blend-multiply"
         />

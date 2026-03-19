@@ -20,7 +20,7 @@ export function Footer() {
           <div className="max-w-sm">
             <Link to="/" className="inline-block mb-5">
               <img
-                src="/assets/logo.webp"
+                src={`${import.meta.env.BASE_URL}assets/logo.webp`}
                 alt="Medicacom Logo"
                 className="h-8 w-auto object-contain mix-blend-multiply"
               />
