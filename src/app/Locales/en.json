@@ -1,0 +1,141 @@
+{
+  "lang": { "fr": "FR", "en": "EN" },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertises": "Expertise",
+    "projects": "Projects",
+    "careers": "Careers",
+    "contact": "Contact",
+    "ctaSecondary": "Talk to an expert",
+    "ctaPrimary": "Discover our solutions",
+    "themeToggle": "Toggle theme",
+    "menu": "Menu",
+    "modeLight": "light",
+    "modeDark": "dark",
+    "languageSwitcher": "Switch language"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "expertises": "Expertise",
+    "resources": "Resources",
+    "bookDemo": "Book a demo",
+    "joinTeam": "Join our team",
+    "bookMeeting": "Book a meeting",
+    "rightsReserved": "All rights reserved",
+    "systemOperational": "System operational",
+    "location": "Sfax, Tunisia"
+  },
+  "home": {
+    "seo": {
+      "title": "Medicacom - Artificial Intelligence & Health Data",
+      "description": "Leader in digital transformation for healthcare in Tunisia. Innovative AI solutions, data platform, and strategic support for the pharmaceutical industry.",
+      "keywords": "medicacom, health AI, data platform, artificial intelligence, digital transformation, Tunisia healthcare"
+    },
+    "hero": {
+      "badge": "Pharmaceutical & IT Evolution",
+      "title1": "Transforming healthcare",
+      "title2": "through data and innovation",
+      "text": "Medicacom supports pharmaceutical leaders and health institutions in their digital transformation through innovative AI solutions and recognized data expertise.",
+      "ctaPrimary": "Discover our solutions",
+      "ctaSecondary": "Talk to an expert"
+    },
+    "domains": {
+      "badge": "Pharma IT & AI Consulting",
+      "title1": "Our intervention areas",
+      "title2": "pharma, public health & HealthTech",
+      "cards": {
+        "pharma": {
+          "title": "Pharmaceutical industry",
+          "text": "Data valorization and exploitation to steer commercial and strategic performance, optimize processes, and accelerate digital transformation.",
+          "alt": "Pharmaceutical industry - data valorization and performance steering"
+        },
+        "publicHealth": {
+          "title": "National public health projects",
+          "text": "Development of structuring digital platforms, observatories, and monitoring systems to improve governance, traceability, and drug safety at national scale.",
+          "alt": "Public health - platforms and medicine traceability"
+        },
+        "healthTech": {
+          "title": "Innovation, R&D & HealthTech startups",
+          "text": "Support, co-creation, and enablement for innovative projects combining technical expertise, strategic consulting, and scientific production.",
+          "alt": "Innovation & HealthTech - AI and digital products"
+        }
+      }
+    },
+    "vision": {
+      "badge": "Our vision",
+      "title1": "Building digital health",
+      "title2": "at national scale",
+      "text": "Build a national digital health ecosystem where data is transformed into reliable strategic information for decision-makers, healthcare professionals, and patients.",
+      "imageAlt": "National digital health vision",
+      "captionTitle": "Strategic vision for national digital health",
+      "captionText": "Reliable data, informed decisions, sustainable impact."
+    },
+    "mission": {
+      "badge": "Our mission",
+      "title1": "Transform data into",
+      "title2": "strategic decisions",
+      "text": "We place data intelligence at the heart of healthcare to create solutions that positively impact organizations, professionals, and patients.",
+      "cards": {
+        "value": {
+          "title": "Value data",
+          "description": "Turn raw data into strategic assets for agile and informed decision-making."
+        },
+        "secure": {
+          "title": "Secure & qualify",
+          "description": "Ensure integrity, confidentiality, and reliability of health data with the highest standards."
+        },
+        "innovate": {
+          "title": "Innovate & impact",
+          "description": "Accelerate health research and innovation with advanced AI tools and domain expertise."
+        }
+      }
+    },
+    "strengths": {
+      "badge": "Our strengths",
+      "titlePrefix": "Why",
+      "titleAccent": "Medicacom?",
+      "cards": {
+        "expertise": {
+          "title": "Recognized expertise",
+          "text": "Recognized expertise in the pharmaceutical and public health sectors."
+        },
+        "innovation": {
+          "title": "Innovative approach",
+          "text": "An innovative approach combining consulting, technology, and artificial intelligence."
+        },
+        "impact": {
+          "title": "National and regional impact",
+          "text": "National and regional impact through structuring projects for the healthcare system."
+        }
+      }
+    },
+    "cerebro": {
+      "badge": "Advanced Generative AI",
+      "title2": "The Pharmaceutical AI Agent",
+      "text": "An autonomous cognitive hub that analyzes your data in real time, anticipates trends, and generates prescriptive insights to optimize commercial and clinical strategies.",
+      "bullet1": "Predictive prescription analytics",
+      "bullet2": "Dynamic market targeting",
+      "bullet3": "Automated intelligent reporting"
+    },
+    "data": {
+      "badge": "Multi-Layer Technology",
+      "title": "Data Ecosystem",
+      "text": "From extraction to visualization, we build robust data foundations. Sync millions of patient, prescription, and clinical records into a unified view.",
+      "dashboardAlt": "Data ecosystem dashboard",
+      "features": {
+        "platformTitle": "Data Platform",
+        "platformDesc": "ETL pipelines, Data Lakes, and dimensional modeling for healthcare.",
+        "biTitle": "Business Intelligence",
+        "biDesc": "Interactive dashboards and real-time KPIs for clear visibility."
+      }
+    },
+    "cta": {
+      "badge": "Data-driven vision",
+      "title": "Ready to transform your data approach?",
+      "text": "Join trusted healthcare leaders and discover how our solutions can accelerate your digital transformation.",
+      "secondary": "Schedule a demo",
+      "response": "Fast response within 24h"
+    }
+  }
+}

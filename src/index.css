@@ -1,0 +1,201 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+/* ── CSS Variables ───────────────────────────────────────────────────── */
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* ── Base Reset ──────────────────────────────────────────────────────── */
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FFFFFF;
+  color: #0B3C5D;
+}
+
+html.dark body {
+  background-color: #020617;
+  color: #F8FAFC;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+::selection {
+  background: rgba(0, 168, 168, 0.18);
+  color: #0B3C5D;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #F1F5F9; }
+::-webkit-scrollbar-thumb { background: rgba(0,168,168,0.35); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,168,168,0.55); }
+
+/* ── Section spacing — uniform across all pages ──────────────────────── */
+.section {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 640px) {
+  .section { padding-top: 7rem; padding-bottom: 7rem; }
+}
+
+/* ── Gradient heading text ───────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #00A8A8 0%, #0050A4 50%, #6C63FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ── HUD scanline overlay ────────────────────────────────────────────── */
+.hud-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.025;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 168, 168, 0.6),
+    rgba(0, 168, 168, 0.6) 1px,
+    transparent 1px,
+    transparent 5px
+  );
+}
+
+/* ── Buttons — raw CSS (no @utility pseudo-selectors) ────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.btn-primary {
+  background-color: #0B3C5D;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background-color: #0050A4;
+  box-shadow: 0 0 20px rgba(0,80,164,0.35);
+}
+
+.btn-teal {
+  background-color: #00A8A8;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+.btn-teal:hover {
+  background-color: rgba(0,168,168,0.9);
+  box-shadow: 0 0 20px rgba(0,168,168,0.35);
+}
+
+.btn-outline {
+  border: 1.5px solid #CBD5E1;
+  background: white;
+  color: #0B3C5D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  border-color: rgba(11,60,93,0.3);
+  background: #F8FAFC;
+}
+
+.btn-ghost {
+  border: 1px solid #E2E8F0;
+  background: rgba(255,255,255,0.8);
+  color: #0B3C5D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+}
+.btn-ghost:hover {
+  background: white;
+  border-color: #CBD5E1;
+}
+
+/* ── Glass utility ───────────────────────────────────────────────────── */
+.glass {
+  border: 1px solid rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.70);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}

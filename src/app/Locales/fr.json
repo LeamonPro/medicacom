@@ -1,0 +1,141 @@
+{
+  "lang": { "fr": "FR", "en": "EN" },
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos",
+    "expertises": "Expertises",
+    "projects": "Projets",
+    "careers": "Carrieres",
+    "contact": "Contact",
+    "ctaSecondary": "Contacter un expert",
+    "ctaPrimary": "Decouvrir nos solutions",
+    "themeToggle": "Basculer le theme",
+    "menu": "Menu",
+    "modeLight": "clair",
+    "modeDark": "sombre",
+    "languageSwitcher": "Changer de langue"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "expertises": "Expertises",
+    "resources": "Ressources",
+    "bookDemo": "Reserver une demo",
+    "joinTeam": "Rejoindre l'equipe",
+    "bookMeeting": "Prendre RDV",
+    "rightsReserved": "Tous droits reserves",
+    "systemOperational": "Systeme operationnel",
+    "location": "Sfax, Tunisie"
+  },
+  "home": {
+    "seo": {
+      "title": "Medicacom - Intelligence Artificielle & Data Sante",
+      "description": "Leader de la transformation digitale du secteur de la sante en Tunisie. Solutions IA innovantes, data platform et accompagnement strategique pour l'industrie pharmaceutique.",
+      "keywords": "medicacom, IA sante, data platform, intelligence artificielle, transformation digitale, sante Tunisie"
+    },
+    "hero": {
+      "badge": "Evolution Pharmaceutique & IT",
+      "title1": "Transformer la sante",
+      "title2": "grace a la data et l'innovation",
+      "text": "Medicacom accompagne les leaders du secteur pharmaceutique et les institutions de sante dans leur transformation digitale grace a des solutions IA innovantes et une expertise data reconnue.",
+      "ctaPrimary": "Decouvrir nos solutions",
+      "ctaSecondary": "Contacter un expert"
+    },
+    "domains": {
+      "badge": "Conseil Pharma IT & IA",
+      "title1": "Nos poles d'intervention",
+      "title2": "pharmacie, sante publique & HealthTech",
+      "cards": {
+        "pharma": {
+          "title": "Industrie pharmaceutique",
+          "text": "Valorisation et exploitation des donnees pour piloter les performances commerciales et decisionnelles, optimiser les processus et accelerer la transformation digitale.",
+          "alt": "Industrie pharmaceutique - valorisation et pilotage des donnees"
+        },
+        "publicHealth": {
+          "title": "Projets nationaux de sante publique",
+          "text": "Developpement de plateformes digitales structurantes, observatoires et systemes de suivi pour ameliorer la gouvernance, la tracabilite et la securite des medicaments a l'echelle nationale.",
+          "alt": "Sante publique - plateformes et tracabilite des medicaments"
+        },
+        "healthTech": {
+          "title": "Innovation, R&D & startups HealthTech",
+          "text": "Accompagnement, co-creation et soutien aux projets innovants, en combinant expertise technique, conseil strategique et production scientifique.",
+          "alt": "Innovation & HealthTech - IA et produits digitaux"
+        }
+      }
+    },
+    "vision": {
+      "badge": "Notre vision",
+      "title1": "Construire la sante digitale",
+      "title2": "a l'echelle nationale",
+      "text": "Construire un ecosysteme digital national de sante, ou les donnees sont transformees en informations strategiques fiables pour les decideurs, les professionnels de sante et les patients.",
+      "imageAlt": "Vision digitale nationale en sante",
+      "captionTitle": "Vision strategique pour une sante digitale nationale",
+      "captionText": "Donnees fiables, decisions eclairees, impact durable."
+    },
+    "mission": {
+      "badge": "Notre mission",
+      "title1": "Transformer la donnee en",
+      "title2": "decision strategique",
+      "text": "Nous placons l'intelligence des donnees au coeur de la sante pour creer des solutions qui impactent positivement les organisations, les professionnels et les patients.",
+      "cards": {
+        "value": {
+          "title": "Valoriser les donnees",
+          "description": "Transformer les donnees brutes en actifs strategiques pour une prise de decision eclairee et agile."
+        },
+        "secure": {
+          "title": "Securiser & qualifier",
+          "description": "Garantir l'integrite, la confidentialite et la fiabilite des donnees de sante selon les standards les plus exigeants."
+        },
+        "innovate": {
+          "title": "Innover & impacter",
+          "description": "Accelerer la recherche et l'innovation en sante grace a des outils IA de pointe et une expertise metier."
+        }
+      }
+    },
+    "strengths": {
+      "badge": "Nos atouts",
+      "titlePrefix": "Pourquoi",
+      "titleAccent": "Medicacom ?",
+      "cards": {
+        "expertise": {
+          "title": "Expertise reconnue",
+          "text": "Expertise reconnue dans le secteur pharmaceutique et de la sante publique."
+        },
+        "innovation": {
+          "title": "Approche innovante",
+          "text": "Approche innovante alliant consulting, technologies et intelligence artificielle."
+        },
+        "impact": {
+          "title": "Impact national et regional",
+          "text": "Impact national et regional grace a des projets structurants pour le systeme de sante."
+        }
+      }
+    },
+    "cerebro": {
+      "badge": "IA Generative Avancee",
+      "title2": "L'Agent IA Pharmaceutique",
+      "text": "Un hub cognitif autonome qui analyse vos donnees en temps reel, anticipe les tendances et genere des insights prescriptifs pour optimiser vos strategies commerciales et cliniques.",
+      "bullet1": "Analyse predictive des prescriptions",
+      "bullet2": "Ciblage dynamique des marches",
+      "bullet3": "Reporting automatise et intelligent"
+    },
+    "data": {
+      "badge": "Technologie Multi-Couches",
+      "title": "Ecosysteme Data",
+      "text": "De l'extraction a la visualisation, nous batissons des fondations data robustes. Synchronisez des millions de donnees patients, prescriptives et cliniques dans une vue unifiee.",
+      "dashboardAlt": "Ecosysteme Data Dashboard",
+      "features": {
+        "platformTitle": "Data Platform",
+        "platformDesc": "Pipelines ETL, Data Lakes et modelisation dimensionnelle pour la sante.",
+        "biTitle": "Business Intelligence",
+        "biDesc": "Tableaux de bord interactifs et KPIs en temps reel pour une vision claire."
+      }
+    },
+    "cta": {
+      "badge": "Vision data-driven",
+      "title": "Pret a transformer votre approche data ?",
+      "text": "Rejoignez les leaders du secteur sante qui nous font confiance et decouvrez comment nos solutions peuvent accelerer votre transformation digitale.",
+      "secondary": "Planifier une demo",
+      "response": "Reponse rapide sous 24h"
+    }
+  }
+}
